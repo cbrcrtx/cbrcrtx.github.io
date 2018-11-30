@@ -37,7 +37,9 @@ p{font-weight:300;margin-top:20px;margin-bottom:0;font-size:14px;line-height:23p
 .main-color{color:#4cddf3;}
 .section-wrapper.text-left, .text-left{text-align:left;}
 .responsive-video iframe{border:0;}
-@media (max-width:768px){.mg-sm{margin-bottom:30px;}
+@media (max-width:768px)
+{.mg-sm{margin-bottom:30px;}
+#thesis-fw{padding: 50px 0;}
 .mg-sm:last-child{margin-bottom:0;}
 .cx_main_sphere{width:350px !important;}
 .cx_main_brain_div{top:95px !important;}
