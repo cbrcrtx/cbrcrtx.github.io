@@ -39,7 +39,6 @@ p{font-weight:300;margin-top:20px;margin-bottom:0;font-size:14px;line-height:23p
 .responsive-video iframe{border:0;}
 @media (max-width:768px)
 {.mg-sm{margin-bottom:30px;}
-#thesis-fw{padding: 50px 0;}
 .mg-sm:last-child{margin-bottom:0;}
 .cx_main_sphere{width:350px !important;}
 .cx_main_brain_div{top:95px !important;}
@@ -50,8 +49,12 @@ p{font-weight:300;margin-top:20px;margin-bottom:0;font-size:14px;line-height:23p
 #contact_left_top_image{width:100px !important;}
 #contact_left_top_image_container{left:10% !important;}
 .fullfilter {height:100.6% !important;}
-/*.home-video {display: none !important;}*/
 }
+
+@media (max-width:384px){
+    #thesis-fw {padding: 50px 0;}
+}
+
 
 /*@media (max-width:384px){.mg-sm{margin-bottom:30px;}*/
     /*.mg-sm:last-child{margin-bottom:0;}*/
