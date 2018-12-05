@@ -51,11 +51,6 @@ p{font-weight:300;margin-top:20px;margin-bottom:0;font-size:14px;line-height:23p
 .fullfilter {height:100.6% !important;}
 }
 
-@media (max-width:384px){
-    #thesis-fw {padding: 50px 0;}
-}
-
-
 /*@media (max-width:384px){.mg-sm{margin-bottom:30px;}*/
     /*.mg-sm:last-child{margin-bottom:0;}*/
     /*.home-video {display: none !important;}*/
