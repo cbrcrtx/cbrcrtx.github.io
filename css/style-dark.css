@@ -333,8 +333,12 @@ footer.footer{background:#4cddf3;}
 .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{border:1px solid #3a3e45;}
 #quite_consider{color:#629e83;}
 #quite_consider:hover{color:#3d6d57;}
-.prezi_button{width:20%;min-width:200px;height:100px;color:rgba(255, 251, 247, 0.87);background-color:#6c062d;border-color:#4d0522;opacity:0;}
-.prezi_button:hover{background-color:#aa0644;border-color:#aa0644;}
+.prezi_button{width:20%;min-width:200px;height:100px;
+    color:rgba(255, 251, 247, 0.87);
+    background-color:rgba(87, 2, 103,0.8);
+    border-color:rgba(87, 2, 103,0.8);
+    opacity:0;}
+.prezi_button:hover{background-color:rgba(87, 2, 103, 1);border-color:rgba(87, 2, 103, 1);}
 .short_bright{font-weight:900;}
 .main_top_loading{
     z-index: 80;
