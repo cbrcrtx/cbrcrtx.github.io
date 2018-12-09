@@ -339,6 +339,7 @@ footer.footer{background:#4cddf3;}
     border-color:rgba(87, 2, 103,0.8);
     opacity:0;}
 .prezi_button:hover{background-color:rgba(87, 2, 103, 1);border-color:rgba(87, 2, 103, 1);}
+.prezi_button:focus{background-color:rgba(87, 2, 103, 1);border-color:rgba(87, 2, 103, 1);}
 .short_bright{font-weight:900;}
 .main_top_loading{
     z-index: 80;
