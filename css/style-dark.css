@@ -262,13 +262,7 @@ footer.footer{background:#4cddf3;}
 .skill-bar ul li .bar{padding-left:15px;height:100%;background:#4cddf3;width:0%;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out;}
 .skill-bar ul li span{position:absolute;top:0;right:20px;color:#FFF;}
 .fullfilter{position:absolute;width:100%;height:100.2%;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#273971+0,570267+100&0.96+0,0.96+100 */
-    background: -moz-linear-gradient(-45deg, rgba(39,57,113,0.96), rgba(87,2,103,0.96)); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(39,57,113,0.96) 0%,rgba(87,2,103,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(39,57,113,0.96) 0%,rgba(87,2,103,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5273971', endColorstr='#f5570267',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    /*background:linear-gradient(280deg, rgba(87, 2, 103, 0.96), rgba(39, 57, 113, 0.96));*/
-    /*background-image: -moz-linear-gradient(180deg, rgba(87, 2, 103, 0.96), rgba(39, 57, 113, 0.96));*/
+    background:linear-gradient(280deg, rgba(87, 2, 103, 0.96), rgba(39, 57, 113, 0.96));
     z-index:100;
 }
 .content-home-wrapper{z-index:3;position:relative;width:100%;height:100%;}
