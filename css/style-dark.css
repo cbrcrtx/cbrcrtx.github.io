@@ -347,7 +347,7 @@ footer.footer{background:#4cddf3;}
 /*.prezi_button:focus{background-color:rgba(87, 2, 103, 1);border-color: rgb(15, 52, 103);}*/
 
 .prezi_button_left{
-    background: linear-gradient(to left, rgba(35, 96, 148, 0.96), rgba(47, 133, 199, 0.96));
+    background: linear-gradient(to left, rgba(4, 225, 243, 0.96), rgba(47, 133, 199, 0.96));
 }
 .prezi_button_right{
     background: linear-gradient(to left, rgba(87, 2, 103, 0.96), rgba(39, 57, 113, 0.96));
