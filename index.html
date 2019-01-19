@@ -1,490 +1,411 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Cybernetic cortex as human-computer connectome. Integrated AI which forms Collaborative AI">
-        <meta name="author" content="Cybercortex">
-        <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="images/favicon/favicon.png">
-        <link rel="icon" sizes="57x57" href="images/favicon/favicon-32x32.png">
-        <link rel="icon" sizes="57x57" href="images/favicon/favicon-57x57.png">
-        <link rel="icon" sizes="72x72" href="images/favicon/favicon-72x72.png">
-        <link rel="icon" sizes="76x76" href="images/favicon/favicon-76x76.png">
-        <link rel="icon" sizes="114x114" href="images/favicon/favicon-114x114.png">
-        <link rel="icon" sizes="120x120" href="images/favicon/favicon-120x120.png">
-        <link rel="icon" sizes="144x144" href="images/favicon/favicon-144x144.png">
-        <link rel="icon" sizes="152x152" href="images/favicon/favicon-152x152.png">
 
-        <meta name="msapplication-TileColor" content="#fceee4">
-        <meta name="msapplication-TileImage" content="images/favicon/favicon-144x144.png">
-        <meta name="application-name" content="Cybercortex">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+    <title>Cybercortex</title>
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap-selector/css/bootstrap-select.min.css">
+    <!--icon font css-->
+    <link rel="stylesheet" href="vendors/themify-icon/themify-icons.css">
+    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+    <link rel="stylesheet" href="vendors/animation/animate.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/magnify-pop/magnific-popup.css">
+    <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style type="text/css">
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
 
-
-        <title>Cybercortex - Integrated AI - Collaborative AI</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- Font Awesome CSS -->
-        <link href="css/lib/font-awesome.css" rel="stylesheet">
-        <!-- EXPANDING THUMBNAIL CSS -->
-        <link rel="stylesheet" href="css/lib/og-component.css" type="text/css"/>
-        <!-- ANIMATED CSS -->
-        <link href="css/lib/animate.css" rel="stylesheet">
-        <!-- STYLE CSS -->
-        <link href="css/style-dark.css" rel="stylesheet">
-        <!-- MODERNIZER JS -->
-        <script src="js/lib/modernizr.custom.js"></script>
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body data-spy="scroll" data-target=".navbar-collapse">
-        <!-- BEGIN OUTTER -->
-        <div class="outter">
-            <div class="home-wrapper">
-                <div class="text-center">
-                    <div class="header-center fade-in" style="z-index:101;">
-                        <h2>
-                            CYBERCORTEX
-                        </h2>
+<body>
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="C" class="letters-loading">
+                            C
+                        </span>
+                    <span data-text-preloader="Y" class="letters-loading">
+                            Y
+                        </span>
+                    <span data-text-preloader="B" class="letters-loading">
+                            B
+                        </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                            E
+                        </span>
+                    <span data-text-preloader="R" class="letters-loading">
+                            R
+                        </span>
+                    <span data-text-preloader="C" class="letters-loading">
+                            C
+                        </span>
+                    <span data-text-preloader="O" class="letters-loading">
+                        O
+                    </span>
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                    <span data-text-preloader="X" class="letters-loading">
+                        X
+                    </span>
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+                    <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+                    <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+                    <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header_area">
+            <nav class="navbar navbar-expand-lg menu_one menu_eight">
+                <div class="container">
+                    <a class="navbar-brand sticky_logo" href="/">
+                        <img src="img/cx_sphere_logo.png" srcset="img/cx_sphere_logo.png 2x" alt="logo">
+                        <img src="img/cx_sphere_logo.png" srcset="img/cx_sphere_logo.png 2x" alt="">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menu_toggle">
+                            <span class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <span class="hamburger-cross">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav menu w_menu ml-auto">
+                             <li class="nav-item mega_menu">
+                                <a class="nav-link" href="#overview" role="button" aria-expanded="false">
+                                 Overview
+                                </a>
+                            </li>
+                            <li class="nav-item mega_menu">
+                                <a class="nav-link" href="#components" role="button" aria-expanded="false">
+                                    Components
+                                </a>
+                            </li>
+                            <li class="nav-item mega_menu">
+                                <a class="nav-link" href="#projects" role="button" aria-expanded="false">
+                                    Projects
+                                </a>
+                            </li>
+                            <li class="nav-item mega_menu">
+                                <a class="nav-link" href="#contacts" role="button" aria-expanded="false">
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--<a class="btn_get btn_hover saas_btn hidden-sm hidden-xs" href="#subscribe">Subscribe</a>-->
+                </div>
+            </nav>
+        </header>
+        <section class="saas_banner_area_two" id="top">
+            <div class="section_intro">
+                <div class="section_container">
+                    <div class="intro">
+                        <div class=" intro_content">
+                            <h1 class="f_700 f_size_50 w_color f_p">Collaborative AI</h1>
+                            <p class="w_color f_size_18">Complex system based on decentralized Integrated AI as persons internal computing</p>
+                            <form class="mailchimp" method="post">
+                                <div class="input-group subcribes">
+                                    <input type="text" name="EMAIL" class="form-control memail" placeholder="your@email.com">
+                                    <button class="btn btn_submit f_size_15 f_500" type="submit">Subscribe</button>
+                                </div>
+                                <p class="mchimp-errmessage" style="display: none;"></p>
+                                <p class="mchimp-sucmessage" style="display: none;"></p>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="home-video" style="background:transparent;"></div>
-                <div class="main_top_loading text-center">
-                    <div class="header-center">
-                        <img class="" src="images/loading.gif" style="width:150px; height: 150px;">
+            </div>
+            <img class="shap_img" src="img/home-10/shape.png" alt="">
+            <div class="animation_img wow fadeInUp" data-wow-delay="0.3s">
+                <!--<img src="img/home-10/dashboard_img.png" alt="">-->
+                <img src="img/cx_sphere.png" height="617" alt="">
+            </div>
+        </section>
+
+        <section class="saas_features_area_two" id="overview">
+            <div class="container">
+                <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s">
+                    <h2 class="f_p f_size_30 l_height50 f_600 t_color">Coordinated technological singularity</h2>
+                    <p class="f_300 f_size_16">When you buy a dedicated server, you get a machine with resources<br> solely allocated to your business.</p>
+                </div>
+                <div class="row mb_30">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="saas_features_item text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <img src="img/home-10/icon1.png" alt="">
+                            <h4 class="f_size_20 f_p t_color f_500">Semantic Streams</h4>
+                            <p class="f_300 f_size_15 mb-0">Tosser blag bubble and squeak up the duff A bit of how's your father blatant morish char cuppa.!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="saas_features_item text-center wow fadeInUp" data-wow-delay="0.5s">
+                            <img src="img/home-10/icon2.png" alt="">
+                            <h4 class="f_size_20 f_p t_color f_500">Research Process</h4>
+                            <p class="f_300 f_size_15 mb-0">Tosser blag bubble and squeak up the duff A bit of how's your father blatant morish char cuppa.!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="saas_features_item text-center wow fadeInUp" data-wow-delay="0.7s">
+                            <img src="img/home-10/icon3.png" alt="">
+                            <h4 class="f_size_20 f_p t_color f_500">Neural Integration</h4>
+                            <p class="f_300 f_size_15 mb-0">Tosser blag bubble and squeak up the duff A bit of how's your father blatant morish char cuppa.!</p>
+                        </div>
                     </div>
                 </div>
-                <div class="top_static_image animatez delay four" data-effect="fadeIn"></div>
-                <div class="fullfilter"></div>
+                <div class="hr mt_100 mb-0"></div>
             </div>
-            <!-- END SLIDER ONE -->
-            <!-- BEGIN CONTENT SECTION -->
-            <div class="section-outter">
-                <!-- BEGIN ABOUT  -->
-                <section id="about">
-                    <div class="section-wrapper">
-                        <div class="section-title">
-                            <div style="position: relative;">
-                                <div class="" data-effect="" style="position: absolute;left:0;right:0;margin-left:auto;margin-right:auto;">
-                                    <img id="cx_inner" class="cx_main_sphere" src="images/cx_sphere_based_scaled_641.png" alt="" width="550px" height="">
-                                </div>
-                                <div class="animatez delay three"  data-effect="fadeIn" style="position: absolute;left:0;right:0;margin-left:auto;margin-right:auto;">
-                                    <img id="cx_outer" class="cx_main_sphere" src="images/cx_sphere_based_scaled.png" alt="" width="550px" height="">
-                                </div>
-                                <div id="cx_main_sphere_height_helper" style="height: 386px;"> </div>
-                            </div>
-                            <h3 class="animatez" data-effect="fadeInUp">CYBERNETIC CORTEX</h3>
-                            <h4 class="subtitle animatez" data-effect="fadeInDown">
-                                Coordinated <span style="color: #FFF;"> | </span> technological singularity
-                            </h4>
-                        </div>
-                        <hr class="title-break">
-                        <div class="section-inner">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-sm-4 mg-sm animatez" data-effect="fadeInUp">
-                                        <i class="fa fa-arrow-circle-o-right fa-5x main-color"></i>
-                                        <h3>
-                                            Semantic streams
-                                        </h3>
-                                        <p>
-                                            Intelligent space, responsive to our feelings and thoughts.
-                                            The virtual environment, which has become our boundless new hands, eyes, ears, nose, tongue, skin.
-                                            The exit of a mind beyond the limitations of a body
-                                        </p>
-                                    </div>
-                                    <div class="col-sm-4 mg-sm animatez delay one" data-effect="fadeInUp">
-                                        <i class="fa fa-filter fa-5x main-color"></i>
-                                        <h3>
-                                            Research process
-                                        </h3>
-                                        <p>Semantic streams make it possible to find people instantly in order to solve
-                                            particular tasks collaboratively, thus fundamentally multiplying intellectual resources
-                                            dedicated to their solution. Like never before in the history
-                                        </p>
-                                    </div>
-                                    <div class="col-sm-4 mg-sm animatez delay two" data-effect="fadeInUp">
-                                        <i class="fa fa-th fa-5x main-color"></i>
-                                        <h3>
-                                            Configuring tissues
-                                        </h3>
-                                        <p>
-                                            Thanks to two-way communication with every cell of a body,
-                                            we form human-computer connectome and are able to control all biophysical processes.
-                                            We get the opportunity to modify and create evolving neural patterns
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="spacer big"></div>
-                        <div class="section-fill bg-parallax bg-about" style="background: 10% 648px rgb(39, 57, 113);">
-                            <div class="fill-wrapper" style="background: linear-gradient(to right, rgb(23, 134, 201), #0076ca);">
-                                <div class="section-title">
-                                    <h2 class="title white animatez" data-effect="fadeInDown">TOROIDAL LAYERS</h2>
-                                    <div class="spacer small"></div>
-                                    <h4 class="subtitle animatez delay two" data-effect="fadeInDown">
-                                        <span class="main-color">
-                                            Addresses- and requests-independent streams of data, circulating permanently
-                                        </span>
-                                    </h4>
-                                    <div class="animatez" data-effect="fadeInUp" style="display: inline-block; float: right; ">
-                                        <img id="toroidal_wave" src="images/wave_cutted.png">
-                                    </div>
-                                    <div class="spacer medium" style="height: 20px;"></div>
-                                </div>
-                            </div>
+        </section>
+        <section class="saas_service_area sec_pad" id="components">
+            <div class="container">
+                <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s">
+                    <h2 class="f_p f_size_30 l_height50 f_600 t_color">Components of realization</h2>
+                    <p class="f_300 f_size_16">Well at public school cheeky bugger grub burke codswallop smashing only a quid
+                        <br> pardon you lavatory chip shop, geeza loo horse play.</p>
+                </div>
+                <div class="row saas_service_item">
+                    <div class="col-lg-6">
+                        <div class="saas_service_img wow fadeInLeft" data-wow-delay="0.5s">
+                            <img src="img/cbr/data_str_447_412.jpg" width="447" height="412" alt="">
                         </div>
                     </div>
-                </section>
-                <!-- END ABOUT -->
-
-                <!-- BEGIN FEATURES -->
-                <section id="features">
-                    <div class="section-wrapper">
-                        <div class="section-title">
-                            <div class="clear"></div>
-                            <h2 class="title animatez" data-effect="fadeInDown">ASPECTS</h2>
-                            <h4 class="subtitle animatez" data-effect="fadeInUp">Of the
-                                || <span style="color: #FFF;">construction</span> | way&nbsp;
-                            </h4>
-                        </div>
-                        <hr class="title-break">
-                        <div class="section-inner">
-                            <div class="container">
-                                <div class="row">
-                                    <!-- LEFT ICON -->
-                                    <div class="col-md-4 mg-sm delay two animatez" data-effect="fadeInUp">
-                                        <div class="left-icon">
-                                            <div class="icon">
-                                                <i class="fa fa-globe"></i>
-                                            </div>
-                                            <div class="left-content">
-                                                <h4>
-                                                    <strong>Collaboration</strong>
-                                                </h4>
-                                                <p>Finding people to collaborate in any tasks and in any field becomes
-                                                    significantly easier, whether it is a practical or theoretical,
-                                                    private or public issue, or whether you want to remain anonymous or share
-                                                    personal information
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- LEFT ICON -->
-                                    <div class="col-md-4 mg-sm delay two animatez" data-effect="fadeInUp">
-                                        <div class="left-icon">
-                                            <div class="icon">
-                                                <i class="glyphicon glyphicon-list"></i>
-                                            </div>
-                                            <div class="left-content">
-                                                <h4>
-                                                    <strong>Floating chains</strong>
-                                                </h4>
-                                                <p>Architecture allowing to perform chains operations as well in
-                                                    third-party ledgers, tangles and computing systems, with interactions of autonomous agents,
-                                                    while being an independent toroidal layers
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- LEFT ICON -->
-                                    <div class="col-md-4 mg-sm animatez" data-effect="fadeInUp">
-                                        <div class="left-icon">
-                                            <div class="icon">
-                                                <i class="glyphicon glyphicon-indent-left"></i>
-                                            </div>
-                                            <div class="left-content">
-                                                <h4>
-                                                    <strong>IAI</strong>
-                                                </h4>
-                                                <p>A highly intelligent Integrated AI that helps identify unobvious
-                                                    interrelations between phenomena and find optimal solutions in various
-                                                    life and activity areas. Part of you, helping you to think more broadly,
-                                                    accurately and faster
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- LEFT ICON -->
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4 mg-sm delay one animatez" data-effect="fadeInUp">
-                                        <!--empty-->
-                                    </div>
-                                    <div class="col-md-4 mg-sm delay one animatez" data-effect="fadeInUp">
-                                        <div class="left-icon">
-                                            <div class="icon">
-                                                <i class="fa fa-book"></i>
-                                            </div>
-                                            <div class="left-content">
-                                                <h4>
-                                                    <strong>Knowledge acquisition</strong>
-                                                </h4>
-                                                <p>Thanks to virtual and mixed environment in the process
-                                                    of knowledge and skills acquisition, there is an opportunity
-                                                    to obtain clear and evident specifications from the IAI at
-                                                    any time. It makes acquiring new knowledge and experience fundamentally faster
-                                                    and more efficient
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- LEFT ICON -->
-                                    <div class="col-md-4 mg-sm animatez" data-effect="fadeInUp">
-                                        <div class="left-icon">
-                                            <div class="icon">
-                                                <i class="glyphicon glyphicon-adjust"></i>
-                                            </div>
-                                            <div class="left-content">
-                                                <h4>
-                                                    <strong>Intelligent models</strong>
-                                                </h4>
-                                                <p>New interfaces of interaction with computing devices
-                                                    make possible to create a space of one’s
-                                                    own feelings, emotions, attitudes to something. To construct intelligent models.
-                                                    Accessible for multi-sensory perception, analysis, comprehension in virtual and mixed reality
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- LEFT ICON -->
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4 mg-sm delay one animatez" data-effect="fadeInUp">
-                                        <!--empty-->
-                                    </div>
-                                    <div class="col-md-4 mg-sm delay one animatez" data-effect="fadeInUp">
-                                        <!--empty-->
-                                    </div>
-                                    <div class="col-md-4 mg-sm delay one animatez" data-effect="fadeInUp">
-                                        <div class="left-icon">
-                                            <div class="icon">
-                                                <i class="fa fa-eye"></i>
-                                            </div>
-                                            <div class="left-content">
-                                                <h4>
-                                                    <strong>Internalized interlocutors</strong>
-                                                </h4>
-                                                <p>It becomes possible to interact with other people's images, their ideas,
-                                                    process or phenomenon models, as if those were one’s own thoughts and
-                                                    sensations, thus building a dialogue with others as with one’s own
-                                                    internal interlocutors, acquiring situational unity
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="spacer big"></div>
-                        <div class="spacer big"></div>
-                        <div class="spacer big" style=" background: #F7F7F7; height: 0px;">
-                        </div>
-                        <div class="section-fill bg-parallax bg-about" style="background: #F7F7F7; height:360px;">
-                            <!--<div class="fill-wrapper" style="background: rgb(40, 136, 200)">-->
-                            <div class="fill-wrapper">
-                                <div class="section-title">
-                                    <div class="spacer small" style="height: 10px;"></div>
-                                    <h2 class="title animatez" data-effect="fadeInDown" style="color: #25292c;">
-                                        ENTRY
-                                    </h2>
-                                    <h4 class="subtitle animatez delay two" data-effect="fadeInDown">
-                                        <span class="main-color" style="color: #676363">
-                                            in a fundamentally new world
-                                        </span>
-                                    </h4>
-                                </div>
-                            </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="saas_service_content pr_100 wow fadeInRight" data-wow-delay="0.7s">
+                            <div class="icon icon_one"><i class="ti-control-shuffle"></i></div>
+                            <h4 class="f_500 f_p t_color">Intelligent data streams</h4>
+                            <p class="f_p f_300">Harry don't get shirty with me loo hanky panky in my flat bog jolly good blag
+                                bamboozled the BBC well fantastic, excuse my French crikey geeza spiffing lost the plot codswallop brilliant blower pardon.!</p>
+                            <a href="#soon_popup" class="gr_btn popup-with-zoom-anim"><span class="text">Learn More</span></a>
                         </div>
                     </div>
-                </section>
-                <!-- END FEATURES -->
-                <!-- BEGIN OVERVIEW -->
-                <section id="overview">
-                    <div class="section-wrapper" style="background: #F7F7F7; padding-top: 0px;">
-                        <!-- BEGIN VIDEO -->
-                        <div class="section-fill" >
-                            <div class="video-wrapper" style="background:rgba(87, 2, 103, 0.96); min-height: 100px;">
-                                <div class="bg-video"></div>
-                                <!--                        <div class="overview_static_image"></div>-->
-                                <div class="video-overlay"></div>
-                                <div class="fill-wrapper">
-                                    <div class="section-title" style="margin-top:-20px;">
-                                        <h1 class="white animatez" data-effect="fadeInDown">
-                                            Cybercortex <strong>big picture</strong>&nbsp;
-                                        </h1>
-                                        <h3 class="subtitle white animatez" data-effect="fadeInDown">
-                                            At prezi based <strong>online</strong> overview
-                                        </h3>
-                                        <div class="spacer small"></div>
-                                        <p>
-                                            <a href="https://prezi.com/a-hjlqb_plri/part-i-goal/" target="_blank"
-                                               class="animatez" data-effect="fadeInDown">
-                                                <button type="button" class="prezi_button prezi_button_left animatez btn btn-info" data-effect="fadeInDown">
-                                                    <span class="short_bright">Part I: Goal</span></button>
-                                            </a>
-                                            <a href="https://prezi.com/bposjt6ld6ji/part-ii-milestones/" target="_blank"
-                                               class="animatez" data-effect="fadeInDown">
-                                                <button type="button" class="prezi_button prezi_button_right animatez btn btn-info" data-effect="fadeInDown">
-                                                    <span class="short_bright">Part II: Milestones</span></button>
-                                            </a>
-                                        </p>
-                                        <p class="white animatez" data-effect="fadeInDown">
-                                            (browser can require <strong>over 2 Gb of RAM</strong>)
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END VIDEO -->
-                    </div>
-                </section>
-                <!-- END OVERVIEW -->
-                <!-- BEGIN SCOPES -->
-                <section id="scopes" class="portfolio">
-                    <div class="section-wrapper" style="background: #F7F7F7">
-                        <div class="section-title">
-                            <h2 class="title animatez" data-effect="fadeInDown" style="color: #25292c">
-                                Priority scopes
-                            </h2>
-                            <h4 class="subtitle animatez" data-effect="fadeInUp" style="color: #676363">
-                               <span class="main-color" style="color: #676363">
-                                Of semantic streams
-                               </span>
-                            </h4>
-                        </div>
-                        <hr class="title-break animatez" data-effect="fadeInDown" style="border-top: 3px solid #4cddf3">
-                        <div class="section-inner">
-                            <ul id="og-grid" class="og-grid">
-                                <li class="animatez" data-effect="fadeIn">
-                                    <a href="" data-largesrc="images/search.jpg"
-                                       data-title="Communications"
-                                       data-description="
-        The multisensory exchange system makes it possible to achieve seeing the world just as the interlocutor sees it,
-        helping understand his feelings better, feel them by oneself, and feel the inner world of the other person.
-
-        And it will change the way we see other people, the way we communicate with people around us.
-
-        It will make the world and people closer, helping them achieve personal maturity and a higher cultural level,
-        like never before">
-                                        <div class="og-overlay"></div>
-                                        <span class="og-title">COMMUNICATIONS</span>
-                                        <img src="images/thumbs/search300.jpg" alt="img01"/>
-                                    </a>
-                                </li>
-                                <li class="animatez" data-effect="fadeIn">
-                                    <a href="" data-largesrc="images/search.jpg"
-                                       data-title="Education"
-                                       data-description="The educational process can be much easier and more interesting:
-        with truly individualized training and development programs due to semantic streams; with the opportunity to gain
-        knowledge in a clearer and more comprehensive form thanks to cooperation with the Integrated AI; with perceiving global data
-        and knowledge physically, at the level of feelings and sensations, as an extension of one’s own self
-        ">
-                                        <div class="og-overlay"></div>
-                                        <span class="og-title">EDUCATION</span>
-                                        <img src="images/thumbs/search300.jpg" alt="Education"/>
-                                    </a>
-                                </li>
-                                <li class="animatez" data-effect="fadeIn">
-                                    <a href="" data-largesrc="images/search.jpg"
-                                       data-title="Search"
-                                       data-description="Semantic streams allow finding necessary
-                                       information as naturally as we are used to find it in our own minds.
-        In thoughts, images, feelings.
-        Imagine that the entire world of information and knowledge, accessible over the Network is our own memory.
-        And managing, searching for, and transforming data is a routine part of our thinking.
-        When searching becomes similar to recalling. And the knowledge of the entire mankind is a part of our personal memory">
-                                        <div class="og-overlay"></div>
-                                        <span class="og-title">SEARCH</span>
-                                        <img src="images/thumbs/search300.jpg" alt="img02"/>
-                                    </a>
-                                </li>
-                                <li class="animatez" data-effect="fadeIn">
-                                    <a href="" class="scopesText" data-largesrc="images/science.jpg"
-                                       data-title="Science"
-                                       data-description="Thanks to semantic streams, the scientific
-                                       process fundamentally accelerates. The exchange of data becomes faster and the access to
-                                       them becomes easier. The understanding of theoretical and experimental materials is
-                                       simplified due to high quality visualization and intelligent modeling, as well as the
-                                       interaction with the Integrated AI.
-
-                                       All of the above allows the scientific progress to gain qualitatively new,
-                                       unprecedented speed">
-                                        <div class="og-overlay"></div>
-                                        <span class="og-title">SCIENCE</span>
-                                        <img src="images/thumbs/science300.jpg" alt="Science"/>
-                                    </a>
-                                </li>
-                        </div>
-                        <div class="spacer big"></div>
-                        <div class="spacer big"></div>
-                    </div>
-                </section>
-                <!-- END SCOPES -->
-                <!-- BEGIN CONTACT -->
-                <section id="contact">
-                    <div class="section-wrapper" style="padding-top: 0px; background: linear-gradient(80deg, rgba(87, 2, 103, 0.96), rgba(39, 57, 113, 0.96));">
-                        <div class="section-fill bg-parallax bg-about">
-                            <!-- <div class="section-fill bg-parallax bg-about" style="background: url('images/bio_lumen.jpg');"> -->
-                            <div class="fill-wrapper" style="padding: 400px 0;">
-                                <div class="section-title">
-                                    <div class="animatez two" id="contact_left_top_image_container" data-effect="fadeInUp"
-                                         style="display: inline-block; position: absolute; bottom: 5px; left:35%;">
-                                        <a id="contact_link" href="https://en.wikipedia.org/wiki/Technological_singularity"
-                                           target="_blank" class="main-color">
-                                            <img id="contact_left_top_image" src="images/ink3.png" width="150px">
-                                            
-                                        </a>
-                                    </div>
-                                    <h4 class="animatez" data-effect="fadeInDown">
-                                        <br>
-                                        <a id="contact_link" href="https://en.wikipedia.org/wiki/Technological_singularity"
-                                           target="_blank" class="main-color">
-                                            <span style="display: none;">S</span>
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="animatez two" data-effect="fadeInDown" style="display: inline-block; position: absolute; bottom: 0; right:0;">
-                                    <a  href="https://en.wikipedia.org/wiki/Technological_singularity"
-                                        target="_blank" style="padding: 0 !important; margin: 0 !important;">
-                                        <!--<img id="contact_cx_synapses" src="images/contact2.png" width="550px" style="vertical-align: bottom !important;">-->
-                                        <!--<img id="contact_cx_synapses" src="images/contact2.png" width="550px">-->
-                                    </a>
-                                </div>
-                            </div>
+                </div>
+                <div class="row flex-row-reverse saas_service_item">
+                    <div class="col-lg-6">
+                        <div class="saas_service_img wow fadeInRight" data-wow-delay="0.4s">
+                            <img src="img/cbr/auton_472_500.jpg" width="472" height="500" alt="">
                         </div>
                     </div>
-                </section>
-                <span style="margin: 0; font-size: 12px; color: #FFF;"></span>
-                <!-- END CONTACT -->
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="saas_service_content pl_100 wow fadeInLeft" data-wow-delay="0.6s">
+                            <div class="icon icon_two"><i class="ti-split-v-alt"></i></div>
+                            <h4 class="f_500 f_p t_color">Autonomous living systems</h4>
+                            <p class="f_p f_300">Harry don't get shirty with me loo hanky panky in my flat bog jolly good blag
+                                bamboozled the BBC well fantastic, excuse my French crikey geeza spiffing lost the plot codswallop brilliant blower pardon.!</p>
+                            <a href="#soon_popup" class="gr_btn popup-with-zoom-anim">
+                                <span class="text">Learn More</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row saas_service_item">
+                    <div class="col-lg-6">
+                        <div class="saas_service_img wow fadeInLeft" data-wow-delay="0.4s">
+                            <img src="img/cbr/decentr_auth_423_473.jpg" width="423" height="473" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="saas_service_content pr_100 wow fadeInRight" data-wow-delay="0.6s">
+                            <div class="icon icon_three"><i class="ti-bar-chart-alt"></i></div>
+                            <h4 class="f_500 f_p t_color">Decentralized authorities</h4>
+                            <p class="f_p f_300">Harry don't get shirty with me loo hanky panky in my flat bog jolly good blag bamboozled
+                                the BBC well fantastic, excuse my French crikey geeza spiffing lost the plot codswallop brilliant blower pardon.!</p>
+                            <a href="#soon_popup" class="gr_btn popup-with-zoom-anim"><span class="text">Learn More</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-row-reverse saas_service_item">
+                    <div class="col-lg-6">
+                        <div class="saas_service_img wow fadeInRight" data-wow-delay="0.4s">
+                            <img src="img/cbr/rd_441_392.jpg" width="441" height="392" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="saas_service_content pl_100 wow fadeInLeft" data-wow-delay="0.4s">
+                            <div class="icon icon_four"><i class="ti-settings"></i></div>
+                            <h4 class="f_500 f_p t_color">Fast R&D cycle</h4>
+                            <p class="f_p f_300">Harry don't get shirty with me loo hanky panky in my flat bog jolly good blag bamboozled
+                                the BBC well fantastic, excuse my French crikey geeza spiffing lost the plot codswallop brilliant blower pardon.!</p>
+                            <a href="#soon_popup" class="gr_btn popup-with-zoom-anim"><span class="text">Learn More</span></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- END CONTENT SECTION -->
-            <!---->
-        </div>
-        <!-- END OUTTER -->
-        <!-- BACK TO TOP -->
-        <div class="totop" id="backtotop">
-                <span>
-                    <a href="#home" class="first sscroll"><i class="fa fa-angle-up"></i></a>
-                    <a href="#home" class="hover sscroll"><i class="fa fa-angle-up"></i></a>
-                </span>
-        </div>
-        <!-- END BACK TO TOP -->
+        </section>
 
-        <script src="js/jquery-1.10.2.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/lib/grid.js"></script>
-        <script src="js/lib/jquery.backgroundvideo6.js"></script>
-        <script src="js/lib/jquery.backtotop.js"></script>
-        <script src="js/lib/waypoints.js"></script>
-        <script src="js/lib/jquery.parallax.js"></script>
-        <script src="js/lib/jquery.smooth-scroll.min.js"></script>
-        <script src="js/lib/jquery.fitvid.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+        <section class="sass_partner_logo_area sec_pad" id="projects">
+            <div class="container">
+                <div class="sec_title text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h2 class="f_p f_size_30 l_height50 f_600 t_color">We build the City</h2>
+                    <p class="f_300 f_size_16">And here some of our buildings that provide creation and <br>implementation of the Cybercortex</p>
+                </div>
+                <div class="partner_logo_area_four">
+                    <div class="row partner_info">
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.1s">
+                            <a href="https://www.gpuhub.org" target="_blank"><img src="img/partners_logos/gpuhub.png" alt=""></a>
+                        </div>
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.2s">
+                            <a href="https://www.psyfund.com" target="_blank"><img src="img/partners_logos/psyfund.png" alt=""></a>
+                        </div>
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.3s">
+                            <a href="https://www.rehominger.org" target="_blank"><img src="img/partners_logos/rehominger.png" alt=""></a>
+                        </div>
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.4s">
+                            <a href="https://www.autonodule.com" target="_blank"><img src="img/partners_logos/autonodule.png" alt=""></a>
+                        </div>
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.6s">
+                            <a href="https://www.joinger.com" target="_blank"><img src="img/partners_logos/joinger.png" alt=""></a>
+                        </div>
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                            <a href="https://www.animwear.com" target="_blank"><img src="img/partners_logos/animwear.png" alt=""></a>
+                        </div>
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.7s">
+                            <a href="https://gitlab.com/traili/traili" target="_blank"><img src="img/partners_logos/traili.png" alt=""></a>
+                        </div>
+                        <div class="logo_item wow fadeInLeft" data-wow-delay="0.8s">
+                            <a href="https://www.iaulm.com" target="_blank"><img src="img/partners_logos/iaulm.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="saas_subscribe_area">
+            <div class="container">
+                <div class="row saas_action_content wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-8">
+                        <h4 class="f_p f_size_30 l_height50 f_400 t_color mb-0">Ready to get Started?</h4>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-end">
+                        <a href="#top" class="gr_btn">
+                            <span class="text">Subscribe</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer_area footer_dark_one footer_dark_ten pt_120"  id="contacts">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget dark_widget company_widget wow fadeInUp" data-wow-delay="0.2s">
+                                <a href="/" class="f-logo">
+                                    <img src="img/cx_sphere_logo.png" srcset="img/cx_sphere_logo.png 2x" alt="logo"></a>
+                                <div class="widget-wrap">
+                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>Email:</span>
+                                        <a href="mailto:contact@cybercortex.org" class="f_300">
+                                        contact@cybercortex.org</a>
+                                    </p>
+                                </div>
+                                <div class="f_social_icon_two">
+                                    <a href="#" class="ti-facebook"></a>
+                                    <a href="#" class="ti-twitter-alt"></a>
+                                    <a href="#" class="ti-vimeo-alt"></a>
+                                    <a href="#" class="ti-pinterest"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget dark_widget about-widget pl_70 wow fadeInUp" data-wow-delay="0.4s">
+                                <h3 class="f-title f_600 t_color f_size_18 mb_40">About Us</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Vision</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Methods</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Collaboration</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Roadmap</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget dark_widget about-widget pl_20 wow fadeInUp" data-wow-delay="0.6s">
+                                <h3 class="f-title f_600 t_color f_size_18 mb_40">Decentralization</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Company</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Leadership</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Diversity</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Jobs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget dark_widget about-widget pl_20 wow fadeInUp" data-wow-delay="0.7s">
+                                <h3 class="f-title f_600 t_color f_size_18 mb_40">Autonomy</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Company</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Leadership</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Diversity</a></li>
+                                    <li><a href="#soon_popup" class="popup-with-zoom-anim">Jobs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom dark_f_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-5 col-sm-12">
+                            <p class="mb-0 f_300">© 2014-2040 Cybercortex <a href="#"></a></p>
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-sm-12">
+                            <ul class="list-unstyled f_menu text-right">
+                                <li><a href="#soon_popup" class="popup-with-zoom-anim">Terms of Use</a></li>
+                                <li><a href="#soon_popup" class="popup-with-zoom-anim">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="soon_popup" class="zoom-anim-dialog mfp-hide">
+        <h1>Coming soon</h1>
+        <p>Documentation is under preparation and will be available soon, stay tuned</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/propper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/wow/wow.min.js"></script>
+    <script src="vendors/sckroller/jquery.parallax-scroll.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/bootstrap-selector/js/bootstrap-select.min.js"></script>
+    <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
