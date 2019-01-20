@@ -658,11 +658,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   min-width: 140px;
   border-radius: 4px;
   /*background-image: -moz-linear-gradient(-48deg, #237efd 0%, #24b0fe 46%, #24e2ff 100%);*/
-  background-image: -moz-linear-gradient(-50deg, #0847a0 0%, #094c71 46%, #1d8392 100%);
+  background-image: -moz-linear-gradient(-50deg, #5583c3 0%, #2b7dab 46%, #459fb3 100%);
   /*background-image: -webkit-linear-gradient(-48deg, #237efd 0%, #24b0fe 46%, #24e2ff 100%);*/
-  background-image: -webkit-linear-gradient(-50deg, #0847a0 0%, #094c71 46%, #1d8392 100%);
+  background-image: -webkit-linear-gradient(-50deg, #5583c3 0%, #2b7dab 46%, #459fb3 100%);
   /*background-image: -ms-linear-gradient(-48deg, #237efd 0%, #24b0fe 46%, #24e2ff 100%);*/
-  background-image: -ms-linear-gradient(-50deg, #0847a0 0%, #094c71 46%, #1d8392 100%);
+  background-image: -ms-linear-gradient(-50deg, #5583c3 0%, #2b7dab 46%, #459fb3 100%);
   z-index: 1;
   -webkit-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
