@@ -445,6 +445,9 @@
 }
 
 @media (max-width:991px){
+    #main_cx_sphere {
+        width: 500px;
+    }
     .s_service_section {
         margin-top: 280px;
     }

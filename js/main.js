@@ -472,7 +472,7 @@
         $(".mailchimp").ajaxChimp({
             callback: mailchimpCallback,
             // url: "http://droitlab.us15.list-manage.com/subscribe/post?u=0fa954b1e090d4269d21abef5&id=a80b5aedb0" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
-            url: "https://psyfund.us20.list-manage.com/subscribe/post?u=aae8692d21c9dcd0ae783f0fa&amp;id=3f195f4c4c" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+            url: "https://psyfund.us20.list-manage.com/subscribe/post?u=aae8692d21c9dcd0ae783f0fa&amp;id=0adff08125"
         });
     }
     $(".memail").on("focus", function ()
